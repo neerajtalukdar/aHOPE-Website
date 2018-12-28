@@ -1,0 +1,284 @@
+::selection {
+  background: #FFDA6D;; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FFDA6D;; /* Gecko Browsers */
+}
+
+
+.rectangle{
+    width:200px;
+    height:100px;
+    background:blue;
+}
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+    background:rgba(0,0,0,0.6);
+}
+
+.heading-container {
+    padding-top: 80px; 
+}
+
+.headtext{
+    color: #222222;
+    font-size: 100%;
+    animation-name: head;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#text2{
+    animation-delay: 2s;
+}
+
+@keyframes head {
+    0% {opacity:1;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.heading{
+    padding-left: 5%;
+    font-family: 'Abel';
+	font-size: 4em; 
+    font-weight:bold; 
+	
+
+}
+
+.sub-heading{
+    padding-left: 5%;
+    font-family: 'Abel';
+    font-size: 2em;
+}
+
+
+.intro-image{
+    position: relative;
+    
+}
+
+
+h3 { 
+   position: absolute;
+   top: 3%;
+   right: 10%;
+   font-family:'Abel';
+   font-weight: 200;
+   font-size: 25px;  
+   font-style: italic;    
+   position: absolute; 
+ 
+   color: white;
+}
+
+h4 { 
+   font-family:'Abel';    
+   font-weight: 200;
+   font-size: 25px;  
+}
+
+span.highlight{
+    background-color: #FFDA6D;
+    color: white;
+}
+
+
+.content-container{
+    padding-left: 40px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+
+.value-statements{
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+    font-weight:bold; 
+    
+}
+
+.content{
+    float:left;
+    padding-left: 5%;
+    padding-right:  15%;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+   
+}
+.header-content{
+    color: white;
+}
+
+
+.image-content{
+    float:left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    width: 40%;
+}
+
+.header-image{
+    background: rgba(0,0,0,0.6);
+}
+
+.heading{
+    
+    color:#FFFFFF;
+}
+.paragraph{
+    padding-left: 20px;
+    
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer{
+    font-family: "Abel";
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+.quote-container{
+    top: 20px;
+    bottom:20px;
+    align-content: center;
+}
+
+.quote-content{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-quote{
+    font-family: "Abel";
+    font-size: 24px; 
+    
+}
+
+.quoted-by{
+    font-family: "Abel";
+    font-size: 18px; 
+}
+
+.introduction{
+    font-family: 'Abel';
+    font-size: 24px !important;
+    color: white !important;
+   
+   
+   
+}
+
+.mission-statement{
+    font-family: "Abel";
+    font-size: 24px; 
+}
+
+
+
+/* team page */
+
+.card {
+   /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.team-role{
+    font-family: "Abel";
+}
+
+.description{
+   font-family: "Abel";
+    font-size:15px;
+}
+
+
+.collage{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.concept-description{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+   
+    font-family: 'Abel';
+    font-size: 15px;
+}
+
+
+.card-clickable{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.research{
+    background: url('../img/data.png');
+    background-color: rgba(0,0,0,0.6);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height:400px;
+}
+
+
+.stats{ 
+   font-family: "Abel";
+   font-size: 18px;    
+   margin-top: 100px;
+   color: white;
+}
+
+.research-statement{ 
+   font-family: "Abel";
+   font-size: 2em;    
+   margin-top: 100px;
+   color: white;
+}
+
+
+
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7); /*can be anything, of course*/
+}
